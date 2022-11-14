@@ -38,6 +38,9 @@
   
   header{
     /* background-color: black; */
+    
+    border: 0.1px solid#1b8674 ;
+    
     background-color: rgb(0, 0, 0);
     position: sticky;
     top: 0;
@@ -57,6 +60,7 @@
   
   .navbar{
     min-height: 70px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,14 +117,17 @@
   }
   
   .education{
+   color: #15564b;
     width: 100%;
+    border-radius: 100px;
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: #45abab;
+    background-color:rgb(209, 207, 207);
   }
   
   .education>h1{
     text-align: center;
+    
   }
   .calendar{
     width: 90%;
@@ -344,20 +351,27 @@
     width: 50%;
     margin: auto;
     display: block;
-    margin-top: 10px;
+    border-radius: 10px  ;
+    margin-top: 20px;
     margin-bottom: 10px;
+    
   
+  }
   
-  }.container .box {
-   
+  .container .box {
+    
    box-sizing: border-box;
    margin: 10px 0; 
-   border: 2px solid burlywood;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   background-color: white;
+   border: 2px solid #1b8674;
+   border-radius: 20px;
+   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+   background-color: black;
     
   }
+  /* .container .box:hover {
+    transform: translateY(5px);
+    box-shadow: inset 0px 10px 20px 2px rgba(0,255,255,0.7);
+  } */
   .box > div{
   
   
@@ -365,9 +379,9 @@
     padding-left: none;
   }
   .tool{
-  
-    font-size :45px;
-    color: #fff;
+    margin-left: 3%;
+    font-size :35px;
+    color:#fff;
   
   }#skill{
   
@@ -400,7 +414,7 @@
   }
   .row .about-col-1 {
   
-    padding: 20px;
+    padding: 30px;
     
   }
   .row .about-col-2{ 
@@ -412,7 +426,8 @@
   .row .about-col-1 img{
   
     width: 80%;
-    border-radius: 50%;
+    border: 0.6px solid #1b8674;
+    border-radius: 50% ;
     margin: auto;
     display: block;
   
@@ -508,10 +523,10 @@
   
   }.social-icons > div {
   
-  border: 2px solid rgb(169, 143, 9);
+  border: 2px solid #1b8674;
   padding: 10px;
   border-radius: 3px;
-  background-color: white;
+  background-color: #15564b;
   width: 20%;
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -554,27 +569,28 @@
   
   }
   .stat .one .circle1{
-  
-    border: 8px solid  #45abab;
+    background-color: ;
+    font-size: 25px;
+    border: 2px solid  #1b8674;
     height: 90px;
-    border-radius: 50%;
+    border-radius: 20px;
     padding: 70px 5px;
     display: flex;
     flex-direction: column;
     justify-content: center; 
-  
+    margin-bottom: 10px;
   
   }
   .stat .one .circle2{
-  
-    border: 8px solid  #45abab;
+    font-size: 25px;
+    border: 2px solid  #1b8674;
     height: 90px;
-    border-radius: 50%;
+    border-radius: 20px;
     padding: 70px 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
+    margin-bottom: 10px;
   
   
   }
@@ -593,21 +609,21 @@
     color: white;
   
   }.rows .col1{
-  
+    border: 1px solid #1b8674;
     flex-basis: 40%;
     margin: auto;
     height: 100%;
     padding: 25px;
     box-shadow: rgba(62, 54, 54, 0.35) 0px 5px 15px;
-    background-color: #202222;
+    background-color: black;
     border-radius: 12px; 
     box-sizing: border-box;
   }
   
   .rows .col1:hover{
   
-    background-color: rgb(56, 103, 68); 
-    color: black;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
   
   
   }
@@ -616,7 +632,7 @@
   
     padding: 20px 0; 
     border-radius: 15px;
-    border: 3px solid white;
+    border: 3px solid gray;
     
     
   }.propic > img {
@@ -624,7 +640,7 @@
     width: 90%;
     margin: auto;
     display: block;
-  
+    border-radius: 15px;
   
   }
   .col1 span{
@@ -640,17 +656,18 @@
     
   
   }.innerbox button{
-   
-    padding: 15px;
+    border:2px solid #1b8674;
+    padding: 10px;
     font-size: 17px;
-    /* background-color: rgb(120, 23, 210); */
-    border-radius: 5px; 
+    background-color: black;
+    border-radius: 10px; 
     font-weight: bold;
+    color: #1b8674;
   
   }.innerbox :hover{
    
-    background-color: #332d2f;
-   color: white;
+    background-color: #000000;
+   color: #00A0C6;
   
   }
     
@@ -704,7 +721,7 @@
   
     .tool{
   
-        font-size :35px;
+        font-size :25px;
         text-align: center;
   
     }
