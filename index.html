@@ -43,7 +43,7 @@
                     <a href="#contact" class="nav-link">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://drive.google.com/file/d/1g-vC5xzBrT0j2FrNH0Fy3uCKQT1ls2Qn/view?usp=sharing" class="nav-link">Resume</a>
+                    <a  href="https://drive.google.com/file/d/1g-vC5xzBrT0j2FrNH0Fy3uCKQT1ls2Qn/view?usp=sharing" target="_blank" class="nav-link">Resume</a>
                 </li>
                
             </ul>
@@ -63,7 +63,7 @@
           <h1 class="para1"> I'm</h1>
             <h1 class="para2"><span class="in-span"> Navneet Singh</span></h1>
             <h1 class="para1"> I'm a Java Backend Developer</h1>
-            <button   class="button-resume"> <a href="./Navneet Singh Resume.pdf" download >Resume</a></button>
+            <button   class="button-resume"> <a id="nextpage" href="./Navneet Singh Resume.pdf" target="_blank"  download >Resume</a></button>
         </div>
       </div> 
 
@@ -476,6 +476,10 @@
 
 const ham = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
+
+document.getElementById("nextpage").addEventListener("click",function(){
+    window.open("https://drive.google.com/file/d/1g-vC5xzBrT0j2FrNH0Fy3uCKQT1ls2Qn/view?usp=sharing")
+})
 
 ham.addEventListener("click",() => {
     ham.classList.toggle("active");
