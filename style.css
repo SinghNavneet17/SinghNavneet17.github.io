@@ -68,7 +68,7 @@
     font-weight: bold;
   }
   
-  .nav-menu{
+  #nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -179,7 +179,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
   
-    nav-menu{
+    #nav-menu{
         position: fixed;
         left: -100%;
         gap: 0;
@@ -196,7 +196,7 @@
         margin: 16px 0;
     }
   
-    nav-menu.active{
+    #nav-menu.active{
         left: 0;
     }
   
