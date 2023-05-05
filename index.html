@@ -26,7 +26,7 @@
         <nav class="navbar">
 
             <a href="#" class="nav-brand">Navneet Singh</a>
-            <ul id="nav-menu">
+            <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="#" class="nav-link">Home</a>
                 </li>
@@ -519,7 +519,7 @@
 <script >
 
 const ham = document.querySelector(".hamburger");
-const navMenu = document.querySelector("#nav-menu");
+const navMenu = document.querySelector("nav-menu");
 
 document.getElementById("nextpage").addEventListener("click",function(){
     window.open("https://drive.google.com/file/d/1g-vC5xzBrT0j2FrNH0Fy3uCKQT1ls2Qn/view?usp=sharing")
@@ -532,17 +532,17 @@ document.getElementById("nextpages").addEventListener("click",function(){
 // })
 
 
-ham.addEventListener("click",() => {
-    ham.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
+// ham.addEventListener("click",() => {
+//     ham.classList.toggle("active");
+//     navMenu.classList.toggle("active");
+// })
 
-document.querySelectorAll(".nav-link").forEach(n =>{
-    n.addEventListener("click",() => {
-        ham.classList.remove("active");
-        navMenu.classList.remove("active");
-    })
-})
+// document.querySelectorAll(".nav-link").forEach(n =>{
+//     n.addEventListener("click",() => {
+//         ham.classList.remove("active");
+//         navMenu.classList.remove("active");
+//     })
+// })
 
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
