@@ -537,12 +537,12 @@ document.getElementById("nextpages").addEventListener("click",function(){
 //     navMenu.classList.toggle("active");
 // })
 
-// document.querySelectorAll(".nav-link").forEach(n =>{
-//     n.addEventListener("click",() => {
-//         ham.classList.remove("active");
-//         navMenu.classList.remove("active");
-//     })
-// })
+document.querySelectorAll(".nav-link").forEach(n =>{
+    n.addEventListener("click",() => {
+        ham.classList.remove("active");
+        navMenu.classList.remove("active");
+    })
+})
 
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
