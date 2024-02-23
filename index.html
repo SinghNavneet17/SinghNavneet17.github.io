@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,590 +5,408 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navneet Singh</title>
-    <link rel="shortcut icon" href="./hero.png">
-    <link rel="icon" href="">
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="github.css">
+    <title>Navneet's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="Resources/Logo-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script
+        src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+    ></script>
     
-    </script>
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-    <link rel="stylesheet" href="style.css">
-    
+    <script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
 
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins&display=swap');
+    </style>
 </head>
 
 <body>
-
-
-    <header>
-        <nav class="navbar">
-
-            <a href="#" class="nav-brand">Navneet Singh</a>
-            <ul id="nav-menu">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skill" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a  id="nextpage" href="./Navneet_Singh_Resume.pdf" target="_blank"  download >Resume</a>
-                </li>
-               
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span> 
-                <span class="bar"></span>
-                <span class="bar"></span>
+    <div class="container">
+        <section id="nav-menu">
+            
+            <div id="nav-bar">
+                
+                <a href="#home" class="nav-link home">
+                    <i class="fa-solid fa-house icon"></i>
+                    <p class=" nav-name">HOME </p>
+                </a>
+                <a href="#about" class="nav-link about">
+                    <i class="fa-solid fa-circle-info icon"></i>
+                    <p class=" nav-name">ABOUT</p>
+                </a>
+                <a href="#skills" class="nav-link skills">
+                    <i class="fa-solid fa-diagram-project icon"></i>
+                    <p class=" nav-name">SKILLS</p>
+                </a>
+                <a href="#projects" class="nav-link projects">
+                    <i class="fa-solid fa-file icon"></i>
+                    <p class=" nav-name">PROJECTS</p>
+                </a>
+                <a href="#contact" class="nav-link contact">
+                    <i class="fa-solid fa-phone icon"></i>
+                    <p class=" nav-name">CONTACTS</p>
+                </a>
+                <a id="resume-button-1"  onclick="resumeDownload()" target="_blank" href="Resources/Navneet-Singh-Resume.pdf" class="nav-link resume" download>
+                    <i class="fa-solid fa-file-arrow-down icon"></i>
+                    <p id="resume-link-1" class="nav-name" >RESUME</p>
+                </a>
+                <div id="side-window" >
+                    <a class="closebtn"> &times;</a>
+                    <a href="#home">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#skills">SKILLS</a>
+                    <a href="#projects">PROJECTS</a>
+                    <a href="#contact">CONTACTS</a>
+                    <a id="resume-link-1" onclick="resumeDownload()" target="_blank" 
+                    href="Resources/Navneet-Singh-Resume.pdf"
+                   >RESUME</a>
+                  </div>
+                <button class="openbtn">&#9776; </button>
             </div>
-        </nav>
-    </header> 
 
+        </section>
 
-    <!-- Introduction -->
+        <section id="home">
+            <diV>
+                <div class="details-div">
+                    <div>
+                        <div>
+                            <h2>Hi, I'm</h3>
+                                <h1>Navneet Singh</h1>
+                                <h3>Java Backend Developer...</h3>
+                                <div target="_blank" class="btn-pack">
+                                    <div id="resume-button-2"  onclick="resumeDownload()">
+                                        <a id="resume-link-2" class="resume-btn"
+                                        href ="Resources/Navneet-Singh-Resume.pdf"
+                                        download><span>Resume</span>
+                                        </a>
+                                    </div>
+                                   
+                                    <div>
+                                        <i id="contact-github" class="fa-brands fa-github"></i>
+                                        <i id="contact-linkedin" class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                    </div>
 
-    <div class="bg-container">
-        <div class="col-12 details-section"> 
-          <h1 class="para1"> I'm</h1>
-            <h1 class="para2"><span class="in-span"> Navneet Singh</span></h1>
-            <h1 class="para1"> I'm a Java Backend Developer</h1>
-            <button   class="button-resume"> <a  id="nextpages" href="./Navneet_Singh_Resume.pdf" target="_blank"  download >Resume</a></button>
-        </div>
-      </div> 
-
-
-      
-<!----------------------------------------about--------------------------------------------->
-
-
-<div id="about" style="background-color: black"> 
-   
-    <div class="row">
-
-
-        <div class="about-col-1">
-            <img src="./hero.png" alt="">
-        </div>
-
-
-        <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1> 
-            <p class="description" style="color:gray">A Passionate Backend developer skilled in Java backend development, I've completed intensive and immersive Masai's Full time 40 weeks of Full stack web development course. Looking forward to joining a company to contribute my coding skills and knowledge in building robust Backend web applications and achieving organizational goals and individual growth. A collaborative team player interested in  learning new things.  </p>
-
-            <div class="tab-titles">
-
-                <div class="tab-links active-link" onclick= "opentab('skills')"> 
-                    
-                    Proffessional Skills
-                    
                 </div>
-    
-                <div class="tab-links" onclick= "opentab('education')">
-                    
-                        Education
-                    
+                <div class="image-icon">
+                    <div>
+
+                        <div class="background"></div>
+                        <img src="Resources/sitting.png" />
+
+                    </div>
+
                 </div>
-    
+
+            </diV>
+        </section>
+
+        <section id="about" class="about section">
+            <img src="Resources/wave6.png" />
+            <div class="main-about">
+                <div class="my-details">
+                    <div>
+                        <div> <img src="Resources/profile-photo.png" class="home-img" /></div>
+
+                    </div>
+                    <div>
+                        <h1 id="user-detail-name">About Me</h1>
+
+                        <p id="user-detail-intro">
+                            A Passionate Backend developer skilled in Java backend development, I've completed intensive and immersive Masai's Full time 40 weeks of Full stack web development course. Looking forward to joining a company to contribute my coding skills and knowledge in building robust Backend web applications and achieving organizational goals and individual growth. A collaborative team player interested in  learning new things. 
+                        </p>
+                        <button id="contact-btn">Contact Me</button>
+                    </div>
+
+
+                </div>
             </div>
 
-            <div class="tab-contents active-tab" id="skills">
-                <ul>
-                    <li><span> Team Work</span>
-                       </li>
-                    <li><span> Problem Solving</span></li>
-                    <li> <span>Communication</span></li>
-                    <li><span>Interpersonal Skills </span></li>
-                    <li><span>Project Presentation </span></li>
-                </ul>
+            <img src="Resources/wave8.png" />
+        </section>
+
+        <section id="skills">
+            <h1>SKILLS</h1>
+            <div class="skills-main">
+                <div>
+                    <div class="main-tech-stack skills-card">
+                        <h1>TECH STACKS</h1>
+                        <div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/html_logo.png" />
+                                    <p class="skills-card-name">HTML</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/css.png" />
+                                    <p class="skills-card-name">CSS</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/javascript.png" />
+                                    <p class="skills-card-name">JavaScript</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/java.png" />
+                                    <p class="skills-card-name">Java</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/hibernate" />
+                                    <p class="skills-card-name">Hibernate</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/sb.png" />
+                                    <p class="skills-card-name">Spring Boot</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="main-tools">
+                        <h1>TOOLS </h1>
+                        <div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/vscode-logo.png" />
+                                    <p class="skills-card-name">VS Code</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/github.png" />
+                                    <p class="skills-card-name">GitHub</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/mysql.png" />
+                                    <p class="skills-card-name">MySQL</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/postman-logo" />
+                                    <p class="skills-card-name">Postman</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/spring-logo.png" />
+                                    <p class="skills-card-name">STS</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
-
-
-            <div class="tab-contents" id="education">
-                <ul>
-                    <li><span>Apr - 2022 to Nov - 2022</span> <br> Back-End web development from MASAI </li>
-                    <li><span>2016 - 2020 </span> <br> B.E from  R N S Institute of Technology</li>
-                    
-                </ul>
-            </div>
-
-
-        </div>
-
-
-    </div>
-
-</div>
-
-
-
-<hr style="border: 1.5px solid  #45abab;">
-
-
-
-
-
-<!-- -------------------------------------skills-------------------------------------- -->
-
-<div id="skill" style="background-color: black;">
-
-    <h1 style="color: 
-    #1b8674 ; text-align: center; font-size: 45px;">Skills</h1>
-
-    <h1 class="tool" style="color: gray; font-family:Arial, sans-serif;" >Languages and Tools </h1>
-
- <div class="container">
-
-
-
-    <div class="box">          
-
-        <img src="https://arjun-porfolio.vercel.app/assets/images/flaticon/html-5.png" alt="">
+        </section>
+        <section id="projects">
+            <p>My Recent Work</p>
+            <h1>PROJECTS</h1>
+            <div class="all-projects">
+                <div>
+                    <div class="single-project project-card">
+                        <h1 class="project-title">Payment wallet Application</h1>
+                        <div class="project-img "><img src="Resources/Paykaro.webp" /></div>
+                        <p class="project-description">An online payment wallet that allows users to store and manage their digital payment methods, such as credit and debit cards, e-wallets, and bank accounts, ensuring convenience and security for all transactions.</p>
         
-        <div class="text">            <!------------352--------------->
-            <p style="color: gray">HTML</p> 
-        </div>
-
-    </div>
-
-    <div class="box">
-
-        <img src="https://arjun-porfolio.vercel.app/assets/images/flaticon/css-3.png" alt="">
-        
-        <div class="text">
-            <p style="color: gray">CSS</p>
-        </div>
-
-    </div>
+                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> Java | Hibernate | MySQL | Spring boot |
+                            Swagger | Maven</h5>
+                        <p>A Collaborative project built by a team of 5 members
+                            in 4 Days.</p>
+                        <div>
+                            <button class="project-github-link"  onclick="paymentwalletGithub()" >GitHub</button>
+                            <button class="project-deployed-link" onclick="paymentwalletVideo()" >Video</button></div>
+                    </div>
 
 
-    <div class="box">
-
-        <img src="https://arjun-porfolio.vercel.app/assets/images/flaticon/js.png" alt="">
-        
-        <div class="text">
-            <p style="color: gray">Java Script</p>
-        </div>
-
-    </div>
-
-
-
-   <div class="box">
-
-        <img  style="background-color: red;" src="https://th.bing.com/th/id/OIP.VZYJGn2VK2FBE0t2tLvvrwHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt=""> 
-       
-        <div class="text">
-            <p style="color: gray">Java</p>
-        </div>
-
-    </div>
-
-
-
-    <div class="box">
-
-        <img  src="https://th.bing.com/th/id/OIP.YCdY8pRfjdOIUcBvccLpCgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt=""> 
-       
-        <div class="text">
-            <p style="color: gray">Hibernate</p> 
-        </div>
-
-    </div>
-
-
-    <div class="box">
-
-        <img src="https://th.bing.com/th/id/OIP.s3twEa94SdRplbZY7lUWsgHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="">
-        
-        <div class="text">
-            <p style="color: gray">Spring Boot</p>
-        </div>
-
-    </div>
-
-
-    <div class="box">
-
-        <img src="https://www.bing.com/th?id=OIP.tv49Gr7dCItRCOGu41_pUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="">
-       
-       
-        <div class="text">
-            <p style="color: gray">MySQL</p>
-        </div>
-
-    </div>
-
-
-    <div class="box">
-
-        <img src="https://th.bing.com/th?q=AWS+Cloud+Symbol&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="">
-        
-        <div class="text">
-            <p style="color: gray">AWS</p>
-        </div>
-
-    </div>
-
-   
-
-</div>
-
-
-
-</div>
-<hr style="border: 1.5px solid  #45abab;">
-
-
-
-
-
-    
-    <!-- ------------------------------------projects ----------------------------------- -->
-
-
-    <div id="projects" style="padding: 2%;">
-
-        <h1 style="color: 
-        #1b8674; text-align:center;font-size: 45px;"> My Projects</h1>
-
-        <div class="rows">
-            <div class="col1">
-
-                <div class="propic">
-                    <img src="https://www.linkpicture.com/q/shine_1.png" alt="">
+                    <div class="single-project project-card">
+                        <h1 class="project-title">Online Food Booking application</h1>
+                        <div class="project-img"><img src="Resources/Foodie.png" /></div>
+                        <p class="project-description">We have developed this REST API for an Online Food Booking application. This API performs all the fundamental CRUD operations of any Online Food Booking platform with user validation at every step.</p>
+                    
+                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> Java | JDBC Driver | MySQL</h5>
+                        <p>A Collaborative project built by a team of 4 members
+                            in 4 Days.</p>
+                        <div><button class="project-github-link"  onclick="FoodieExpressGithub()" >GitHub</button><button
+                                class="project-deployed-link"  onclick="FoodieExpressVideo()" >Video</button></div>
+                    </div>
                 </div>
+                <div>
+                    <div class="single-project project-card">
+                        <h1 class="project-title">Crime Information Management System</h1>
+                        <div class="project-img "><img src="Resources/CIMS.png" /></div>
+                        <p class="project-description">The aim of the project was to maintain and manage the detail information of the crime happened in an area under a particular police station.This software will be used by the police officials in the Police station.</p>
+                       
+                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> MYSQL | JDBC</h5>
+                        <p>Individual project built in 4 Days.</p>
+                        <div><button class="project-github-link" onclick="cimsGithub()" >GitHub</button><button
+                                class="project-deployed-link" onclick="cimsvideo()" >Live Demo</button></div>
+                    </div>
+                    <div class="single-project project-card">
+                        <h1 class="project-title">Shine - Online Job and Recruitment Portal</h1>
+                        <div class="project-img "><img src="Resources/Shine.png" /></div>
+                        <p class="project-description">Shine.com is an Online Job and Recruitment Portal to Search & Apply for the Latest Job Vacancies across Top Companies in India and also offers online courses.</p>
 
-                <h3 style="color: 
-                #1b8674 ; margin-top: 10px;">Shine - Online Job and Recruitment Portal</h3>
-                <h2  style=" margin-top: 15px;margin-bottom: 15px; color: #1b8674;">Shine Clone</h2>
-                <h4  style="margin-bottom: 15px;color: grey;" >Shine.com is an Online Job and Recruitment Portal to Search & Apply for the Latest Job Vacancies across Top Companies in India and also offers online courses. </h4>
-                <p style="color: rgb(196, 196, 196);"><span style="color: #1b8674;">Tech-Stack : </span>  HTML | CSS | JAVASCRIPT</p>
-
-                <div class="innerbox">
-
-                    <a class="icon project-deployed-link" href="https://github.com/SinghNavneet17/windy-picture-8509" target="_blank" ><button>Source Code</button></a>
-                    <a class="icon project-deployed-link" href="https://reliable-panda-4f77a4.netlify.app" target="_blank" ><button>Deployed Link</button></a>
-
+                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> HTML | CSS | JavaScript</h5>
+                        <p>Individual Project built in 4 Days.</p>
+                        <div><button class="project-github-link" onclick="shineGithub()" >GitHub</button><button
+                                class="project-deployed-link" onclick="shineLive()" >Live Demo</button></div>
+                    </div>
 
                 </div>
-
             </div>
+            <div class="github-cal-div ">
+                <h1>GitHub Calender</h1>
+                <div>
 
-            <div class="col1">
+                        <div class="calendar">
+                            <!-- Loading stuff -->
+                            Loading the data just for you.
+                            
+                        </div>
 
-                <div class="propic">
-                    <img src="https://www.linkpicture.com/q/foodie.png" alt="">
+                    <div class="github-stats-info">
+                        <img id="github-stats-card"
+                            src="https://github-readme-stats.vercel.app/api?username=SinghNavneet17&show_icons=true&theme=apprentice">
+
+                        <img id="github-streak-stats"
+                            src="https://github-readme-streak-stats.herokuapp.com?user=SinghNavneet17&theme=apprentice&hide_border=false">
+                    </div>
+                    <div>
+                        <img id="github-top-langs"
+                            src="https://github-readme-stats.vercel.app/api/top-langs/?username=SinghNavneet17&layout=compact&theme=apprentice">
+                    </div>
+
+
+
                 </div>
-
-                <h3 style="color: 
-                #1b8674 ; margin-top: 10px;">Online Food Booking application</h3>
-                <h2  style=" margin-top: 15px;margin-bottom: 15px; color: #1b8674;">Foodie Express</h2>
-                <h4  style="margin-bottom: 15px;color: grey;" >We have developed this REST API for an Online Food Booking application. This API performs all the fundamental CRUD operations of any Online Food Booking platform with user validation at every step. </h4>
-                <p style="color: rgb(196, 196, 196);"><span style="color: #1b8674;">Tech-Stack : </span>  MYSQL | JAVA | SPRING BOOT | HIBERNATE JPA |SWAGGER </p>
-
-                <div class="innerbox">
-
-                    <a class="icon project-deployed-link" href="https://github.com/bhupirao/Foodie-Express" target="_blank" ><button>Source Code</button></a>
-                    <a class="icon project-deployed-link" href="https://drive.google.com/file/d/1w9u8PEheoz9XL_HMbo61ZQCR-QaMzoed/view?usp=sharing" target="_blank" ><button>Demo Video</button></a>
-
-
-                </div>
-
             </div>
-            <div class="col1">
-
-                <div class="propic">
-                    <img src="https://www.linkpicture.com/q/cimss.png" alt="">
-                </div>
-
-                <h3 style="color: 
-                #1b8674 ; margin-top: 10px;">Crime Information Management System</h3>
-                <h2  style=" margin-top: 15px;margin-bottom: 15px; color: #1b8674;">CIMS</h2>
-                <h4  style="margin-bottom: 15px;color: grey;" >The aim of the project was to maintain and manage the detail information of the crime happened in an area under a particular police station.This software will be used by the police officials in the Police station.  </h4>
-                <p style="color: rgb(196, 196, 196);"><span style="color: #1b8674;">Tech-Stack : </span>  MYSQL | JDBC </p>
-
-                <div class="innerbox">
-
-                    <a class="icon project-deployed-link" href="https://github.com/SinghNavneet17/Crime-Information-Management-System" target="_blank" ><button>Source Code</button></a>
-                    <a class="icon project-deployed-link" href="https://drive.google.com/file/d/1w9u8PEheoz9XL_HMbo61ZQCR-QaMzoed/view?usp=sharing" target="_blank" ><button>Demo Video</button></a>
-
-
-                </div>
-
-            </div>
-
-
-            <div class="col1">
-
-                <div class="propic">
-                   <img src="https://www.linkpicture.com/q/pay_karo.png" alt=""> 
-                </div>
-
-                <h3  style="color: 
-                #1b8674;margin-top: 10px;">Payment wallet Application</h3>
-                <h2 style="margin-top: 15px;margin-bottom: 15px;color: #1b8674;">PWA</h2>
-
-                <h4 style="margin-bottom: 15px; color: grey;" > An online payment wallet that allows users to store and manage their digital payment methods, such as credit and debit cards, e-wallets, and bank accounts.</h4>
-                <p style="color: rgb(196, 196, 196);"><span style="color: #1b8674;">Tech-Stack : </span>  MYSQL | JAVA | SPRING BOOT | HIBERNATE JPA |SWAGGER </p>
-
-                <div class="innerbox">
-
-                   <a class="icon project-deployed-link" href="https://github.com/SinghNavneet17/Payment-wallet-Application" target="_blank" ><button>Source Code</button></a>
-                    <a class="icon project-deployed-link" href="https://drive.google.com/file/d/178LwA9xvuGv_jVtqfNVNw_-4K1bQ6JQ8/view" target="_blank"><button>  Demo Video</button></a>
-
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
-
-    <hr style="border: 1.5px solid  #45abab;">
-
-
- 
-   
-
-      <!-- GitHub Calender  -->
-    
-    <div class="education" >
-
-        <h1 style="color: 
-        #177061 ; text-align:center;font-size: 45px;margin-bottom: 35px;margin-top: -30px;">Github-Calender</h1> 
-        <div>
+        </section>
+        <section id="contact">
+            <h1>
+                Contact Me
+            </h1>
+            <p>Get in touch</p>
             <div>
-
-            </div>
-        </div>
-        <div class="cal-con">
-            <div class="calendar">
-                Loading the data just for you.
-            </div>
-        </div>
-        <div class="stats">
-            <img
-                src="https://github-readme-stats.vercel.app/api?username=SinghNavneet17&theme=algolia&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" />
-        </div>
-    </div>
-
-
-    <hr style="border: 1.5px solid  #45abab;">
-
-
-       
- <!-- --------------------------------------Statistics ---------------- -->
-    
-
- <div id="statstatistics" style="background-color: black; padding: 30px;">
-
-    <h1 style="color:
-      #1b8674; text-align: center;font-size: 45px;">My Statistics Of Learning </h1>
-
-
-
- <div class="stat" >
-
-
-
-    <div class="one">
-
-        <div class="circle1">
-
-            <h3>1200+</h3>
-
-        </div>
-        <h3>Hours</h3>
-        <p style="color:gary;">Of Full Stack Coding</p>
-    </div>
-
-    <div class="one">
-
-        <div class="circle2">
-
-            <h3>200+</h3>
-
-        </div>
-        <h3>Git</h3>
-        <p>Commits</p>
-        
-    </div>
-    <div class="one">
-
-        <div class="circle1">
-
-            <h3>3</h3>
-
-        </div>
-        <h3>Projects</h3>
-        <p>Done</p>
-        
-    </div>
-    <div class="one">
-
-        <div class="circle2">
-
-            <h3>100+</h3>
-
-        </div>
-        <h3>Hours</h3>
-        <p>of Soft Skills Sessions</p>
-        
-    </div>
-</div>
-
-
-</div>
-
-<hr style="border: 1.5px solid  #45abab;"> 
-
-
-
-    <!-- -------------------------------- Contact ---------------------------- -->
-
-
-    <div id="contact" style="background-color: black; padding: 2%;">
-
-        <h1 class="sub-title">Contact Me</h1>
-
-
-            <div class="row1">
-                <h2 style="color: gray;">Passionate Backend developer looking for an opportunity connect with me via </h2>
-                
-                    <p> E-mail : singhnavneet.1711@gmail.com</p>
-                    <p>Phone : +91-7619123723</p>
-
-                    <div class="social-icons">
-
-                        <div class="pic" >
-
-                            <a href="https://www.linkedin.com/in/navneet-singh-0312b1237/"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384088.png" alt=""></a>
-
-
+                <div class="personal-info">
+                    <div>
+                        <div id="contact-email">
+                            <div class="info-head">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p>Email</p>
+                            </div>
+                            <p>singhnavneet.1711@gmail.com</p>
                         </div>
-
-                        <div class="pic">
-
-                            <a href="https://github.com/SinghNavneet17"><img src="https://cdn-icons-png.flaticon.com/128/2504/2504911.png" alt=""></a>
-
-
+                        <div>
+                            <div class="info-head">
+                                <i class="fa-solid fa-phone"></i>
+                                <p id="contact-phone">Phone Number</p>
+                            </div>
+                            <p>+91 7619123723</p>
                         </div>
-
-                        <div class="pic">
-
-                            <a href="mailto:singhnavneet.1711@gmail.com"><img src="https://cdn-icons-png.flaticon.com/128/3178/3178165.png" alt=""></a> 
-
-
+                        <div>
+                            <div class="info-head">
+                                <i class="fa-brands fa-twitter"></i>
+                                <p>Twitter</p>
+                            </div>
+                            <p>@navneetsin17783</p>
                         </div>
+                    </div>
+                </div>
+                <div class="send-info">
 
-
-
-                
+                    <div>
+                        <form
+                        action="https://formspree.io/f/xleqnrnj"
+                        method="POST"
+                        >
+                            <div class="input-box">
+                                <p>Name</p>
+                                <input type="text" name="name" required/>
+                            </div>
+                            <div class="input-box">
+                                <p>Email</p>
+                                <input type="email" name="email" required />
+                            </div>
+                            <div class="input-box">
+                                <p>Projects</p>
+                                <input type="text" />
+                            </div>
+                            <div class="input-box">
+                                <p>Message</p>
+                                <textarea type="text" rows="5" name="message" required ></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-        </div>
 
-
+        </section>
+        <section id="footer">
+            <div>
+                <a href="#home" class="footer-nav">
+                    <p class=" nav-name">HOME </p>
+                </a>
+                <a href="#about" class="footer-nav">
+                    <p class=" nav-name">ABOUT</p>
+                </a>
+                <a href="#skills" class="footer-nav">
+                    <p class=" nav-name">SKILLS</p>
+                </a>
+                <a href="#projects" class="footer-nav">
+                    <p class=" nav-name">PROJECTS</p>
+                </a>
+                <a href="#contact" class="footer-nav">
+                    <p class=" nav-name">CONTACTS</p>
+                </a>
+                <a href="" class=""
+                onclick="window.open(`https://drive.google.com/file/d/19Rf-dPgO6_uOraMu5rLi0ZquejuDxedo/view?usp=sharing`)"
+                download href="Resources/Navneet-Singh-Resume.pdf">
+                    <p class=" nav-name">RESUME</p>
+                </a>
+            </div>
+            <div class="icons-footer">
+                <i class="fa-brands fa-github" id="footer-github"></i>
+                <i class="fa-brands fa-linkedin" id="footer-linkedin" ></i>
+            </div>
+            <div>
+                <p>© Made By Navmeet Singh</p>
+            </div>
+        </section>
 
     </div>
-
-
-
-    <hr style="border: 1.5px solid  #45abab;">
-
-
-
-    
-    <footer>
-        <p>Made with ❤️ by Navneet Singh © 2022</p>
-    </footer>
-
 </body>
 
-
-<script >
-
-const ham = document.querySelector(".hamburger");
-const navMenu = document.querySelector("#nav-menu");
-
-document.getElementById("nextpage").addEventListener("click",function(){
-    window.open("https://drive.google.com/file/d/1oVccqfdGytLTdcTqxC_FSWmIuyjwhyE1/view?usp=sharing")
-})
-document.getElementById("nextpages").addEventListener("click",function(){
-    window.open("https://drive.google.com/file/d/1oVccqfdGytLTdcTqxC_FSWmIuyjwhyE1/view?usp=sharing")
-})
-document.getElementsByClassName("icon project-deployed-link").addEventListener("click",function(){
-    window.open("")
-})
-
-ham.addEventListener("click",() => {
-    ham.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
-
-document.querySelectorAll(".nav-link").forEach(n =>{
-    n.addEventListener("click",() => {
-        ham.classList.remove("active");
-        navMenu.classList.remove("active");
-    })
-})
-
-const observer = new IntersectionObserver((entries)=>{
-    entries.forEach((entry)=>{
-        // console.log(entry);
-        if(entry.isIntersecting){
-            entry.target.classList.add("show");
-        }else{
-            entry.target.classList.remove("show");
-        }
-    })
-})
-
-const hiddenElement = document.querySelectorAll(".hidden");
-hiddenElement.forEach((element)=> observer.observe(element));
-
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "amanvyas1", { responsive: true });
-
-
-
-    
-var tablinks= document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname){
-
-        for(tablink of tablinks){
-
-            tablink.classList.remove("active-link");
-        }
-
-        
-        for(tabcontent of tabcontents){
-
-            tabcontent.classList.remove("active-tab");  
-        
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab"); 
-
-    }
-
-  
-
-</script>
-
-
-    
-
-
 </html>
+<script src="index.js"></script>
