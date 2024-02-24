@@ -147,6 +147,6 @@ function shineGithub(){
 
 function shineLive(){
 
-    window.open("https://calm-centaur-b2b886.netlify.app/","_blank");
+    window.open("https://shine-clone-0023.netlify.app/","_blank");
 
 }
