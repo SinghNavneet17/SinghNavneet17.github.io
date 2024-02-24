@@ -1,10 +1,6 @@
 function resumeDownload(){
-
-    //window.open("https://drive.google.com/file/d/19Rf-dPgO6_uOraMu5rLi0ZquejuDxedo/view?usp=sharing");
-
-
     window.open(
-       "https://drive.google.com/file/d/19Rf-dPgO6_uOraMu5rLi0ZquejuDxedo/view?usp=sharing"
+       "https://drive.google.com/file/d/1nXWECn1m2p4youkx4RjSq0aSSUdAeFnP/view?usp=sharing"
       );
       
 }
