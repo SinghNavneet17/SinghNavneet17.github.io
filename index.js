@@ -1,6 +1,6 @@
 function resumeDownload(){
     window.open(
-       "https://drive.google.com/file/d/1sWN2wWDBRC8zYoNs9vwz4X0lwvr9DjdM/view?usp=sharing"
+       "https://drive.google.com/file/d/1yvB1yVab08JL0IZcrRektt_QQ0Ixvj2r/view?usp=sharing"
       );
       
 }
